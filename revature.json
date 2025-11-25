@@ -1,0 +1,25 @@
+{
+  "type": "python",
+  "testFiles": [
+    {
+      "path": "src/test/lab_test.py",
+      "testCases": [
+        {
+          "methodName": "test_get_user_input_string",
+          "label": "Verify get_user_input_string returns a string without extra output",
+          "description": "Checks that get_user_input_string returns the mocked input 'John' and that no additional text is printed, as required by the lab’s string-input function."
+        },
+        {
+          "methodName": "test_get_user_input_integer",
+          "label": "Verify get_user_input_integer validates and converts integer input",
+          "description": "Ensures that get_user_input_integer handles invalid input ('abc'), prints an appropriate error message, and ultimately returns the valid integer 25."
+        },
+        {
+          "methodName": "test_get_user_input_float",
+          "label": "Verify get_user_input_float validates and converts float input",
+          "description": "Confirms that get_user_input_float responds to invalid input ('abc') with the correct error message and returns the valid float 25.5, matching the lab’s input-validation requirements."
+        }
+      ]
+    }
+  ]
+}
